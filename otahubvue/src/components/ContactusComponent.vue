@@ -80,7 +80,7 @@ export default {
     background-color: black;
     color: white;
     text-align: center;
-    margin-bottom:10pc;
+    margin-bottom:15pc;
     width: 100%;
     align-items: center;
     height: 4vh;

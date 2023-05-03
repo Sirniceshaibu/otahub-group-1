@@ -31,8 +31,5 @@ import ContactusComponent from './components/ContactusComponent.vue'
 </script>
 
 <style>
-/* .nav{
-  background-color:rgb(38, 94, 94);
-} */
 
 </style>

@@ -15,7 +15,7 @@
           <div class="row">
             <div class="col-lg-4 col-md-12 col-12">
               <div class="about-img">
-                <img src="../assets/Nigeria.jpg" alt="" class="img-fluid">
+                <img src="../assets/Nigeria.jpg" alt="" style="border-radius:10%" class="img-fluid">
               </div>
             </div>
             <div class="col-lg-8 col-md-12 col-12" style=" background-color: rgb(2, 88, 88);border-radius: 30PX; ">

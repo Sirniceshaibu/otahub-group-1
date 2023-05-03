@@ -16,7 +16,7 @@
             <marquee behavior="scroll" direction="left" class="welcome">{{title}}</marquee>
     
                 <strong><p class="writing">{{type}}</p></strong>
-                 <strong><p class="writing">{{caption}}</p></strong>
+                 <strong><p class="writing" >{{caption}}</p></strong>
            <section id="home" class="about section-padding">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -68,7 +68,7 @@ export default {
         return{
             title:"WELCOME TO OTUKPO TECH ACADEMY HUB!.. 'PROGRAMMING AT IT'S FINEST'",
             type:"Great Team Work Is The Only Way We Create The Breakthrough That Defines Our Careers", 
-            caption:"The greatness of a community is most accurately measured by the compassionate actions of its members",
+            caption:"The greatness of a community is most accurately measured by the compassionate actions of its members!",
            
 }
     }
@@ -170,7 +170,7 @@ section{
 .writing{
     font-size: 2rem;
     color: white;
-    font: italic;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
 
