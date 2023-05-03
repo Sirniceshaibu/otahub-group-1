@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body style="background-color:black">
+  <body>
     <div>
       <nav class="navbar navbar-expand-lg navbar-white bg-white">
         <img src="@/assets/logos.jpg" alt="" class="image img-fluid">
@@ -35,6 +35,7 @@
       </nav>
     </div>
   </body>
+  
   </html>
  
 

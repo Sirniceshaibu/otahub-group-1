@@ -39,6 +39,45 @@
           </div>
         </div>
       </section>
+      <h2>{{question}}</h2>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+     <strong> {{free}} </strong>
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>{{of}}</strong>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        <strong>{{duration}}</strong>
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>{{long}}</strong> 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+      <strong> {{enrol}}</strong>
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>{{email}}</strong> 
+      </div>
+    </div>
+  </div>
+</div>
 
 
       
@@ -63,6 +102,15 @@ export default {
         aims:"To enable our students to gain more knowledge on programming.",
         objectives:"To reduce the level of unemployment in /Nigeria by empowering individuals",
         environment: "Having a conducive learning environment where learning would be made easy",
+        question:"Questions normally asked?",
+        free:"IS IT FREE?",
+        of:"Of course it is free! we believe knowledge is power",
+        duration:"COURSE DURATION?",
+        long:"An introduction to coding courses being carried out  for a week where our students learn basic web development skills. After that ,we offer qualified students the opportuntity to do a 3 month intensive coding bootcamp which will prepare them on the path to become capable programmers.Classes run from 9am to 4pm",
+        enrol:" HOW CAN I ENROL?",
+        email:"Email us at admissions@thebackhomeproject.org .Or you can fill the contact form below",
+
+
         
       }
 
@@ -75,7 +123,8 @@ export default {
 span{
   color:black
 }
-.men{
+.accordion{
+  font-size: 2rem;
  
 }
 </style>

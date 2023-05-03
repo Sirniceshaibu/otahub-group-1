@@ -56,20 +56,12 @@
 
    <div style=" align-items:center;  margin-left: 100px; font-size:2rem">
    <?php foreach($post as $posts){?>
-    <h4 style="text-align;color:white; font-size:3rem ">ATTACHMENT</h4>
-                <a href="posts/<?Php echo $posts["attachment"];?>"><img style=" border-radius:20%;align-items: center;  width:15%"  src="posts/<?php echo $posts["attachment"];?>" alt=""  class="img-fluid"></a>
-                <h4>USERID</h4>
-                <?php echo $posts["userid"];?>
-                <strong><h4 style="font-size:3rem ;align-items: center; ">DATE:</h4></strong>
-             <?php echo $posts["date_posted"];?>
-             <?php
-             date_default_timezone_set("Africa/Lagos");
-                    echo date("l,h:i:");
-                ?>
-                     <strong><h4 style="font-size:3rem ;">FULLNAME:</h4></strong>
-             <?php echo $posts["fullname"];?>
-             <strong><h4 style="font-size:3rem ;">POST:</h4></strong>
-             <?php echo $posts["post"];?>
+    <h4>USERID: <?php echo $posts["userid"];?></h4>
+    <h4 style="text-align;color:white; font-size:3rem "></h4>
+                <a href="posts/<?Php echo $posts["attachment"];?>"><img style=" border-radius:20%;align-items: center;  width:15%"  src="posts/<?php echo $posts["attachment"];?>" alt=""  class="img-fluid"></a><br>
+                <?php echo $posts["fullname"];?><br>
+             <?php echo $posts["post"];?><br>
+             <?php echo $posts["date_posted"];?><br><br>
           
       
 
